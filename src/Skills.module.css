@@ -1,4 +1,15 @@
 .skills {
   height: 100vh;
   background-color: darkviolet;
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  width: 80%;
+  border: 1px solid; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
 }

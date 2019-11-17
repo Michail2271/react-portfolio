@@ -1,4 +1,15 @@
 .slogan  {
   height: 250px;
   background-color: orangered;
+  display: flex;
+  justify-content: center;
+}
+
+
+.container{
+  width: 80%;
+  border: 1px solid; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
