@@ -1,4 +1,4 @@
-.slogan  {
+.container {
   height: 250px;
   background-color: orangered;
   display: flex;
@@ -6,10 +6,17 @@
 }
 
 
-.container{
+.slogan{
   width: 80%;
   border: 1px solid; 
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-direction: column;
+}
+
+
+button{
+  width: 90px;
+  height: 40px;
 }
