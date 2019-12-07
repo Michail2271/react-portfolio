@@ -1,4 +1,4 @@
-.footer  {
+.container  {
   height: 250px;
   background-color: springgreen;
   display: flex;
@@ -6,11 +6,22 @@
 }
 
 
-.container{
+.footer{
   width: 80%;
   border: 1px solid; 
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-direction: column;
+}
 
+.footerNet{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+img{
+  width: 50px;
+  height: 50px;
 }

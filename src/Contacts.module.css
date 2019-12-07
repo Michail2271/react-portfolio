@@ -1,14 +1,28 @@
-.contacts  {
+.container  {
   height: 100vh;
   background-color: orchid;
   display: flex;
   justify-content: center;
 }
 
-.container{
+.contacts{
   width: 80%;
   border: 1px solid; 
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.contactsBlock{
+  flex-direction: column;
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+  height: 80%;
+  align-items: stretch;
+}
+
+textarea{
+  height: 40%;
+  resize: none;
 }
